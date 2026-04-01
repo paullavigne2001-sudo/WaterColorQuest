@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { GAME_ECONOMY, getLevelReward, canAfford } from "./config/gameEconomy";
 import { getLevelConfig as getLevelConfigFromConfig } from "./config/levelProgression";
 
